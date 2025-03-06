@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #003366;
+}
+
+nav  {
+    /* position: absolute; */
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-size-adjust: 20px;
+}
+
+.one {
+    text-style;
+
+}
+
+.login {
+    background: #003366;
+    color: White;
+}
+.signup {
+    background: white;
+    color: #003366;
+}
+
+/* .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: #f8f9fa;
+} */
+
+.hero {
+    /* position: absolute ; */
+    background: url(photo.png) no-repeat center center/cover ;
+    padding: 150px;
+
+}
+
+.hero-content {
+    max-width: 100%;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #003366;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.quote {
+    background: #003366;
+    color: white;
+}
+
+.learn {
+    background: white ;
+    border: 1px solid #003366 ;
+    color: #003366;
+} 
